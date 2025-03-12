@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout the code from github'){
             steps{
-                 git url: 'https://github.com/suman-123-git/pro1'
+                 git url: 'https://github.com/suman-123-git/pro1.git'
                  echo 'github url checkout'
             }
         }
